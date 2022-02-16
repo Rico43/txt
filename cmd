@@ -26,3 +26,22 @@ D.First: While not D. Eof do begin if Trim(D.Value("ReportName')) = 1FN then 140
 D.  Next: end: end: 145 Eunction GetShareText:
 string: pegin GetShareMsg: Result: = GetFldInfo(RichTextToPlainText(<plShareMsg."Body">)) |
 150 ed: a function StrToF1loatDef(const 1F ld: Variant): string: country
+
+SELECT column_name(s)
+FROM table1 T1, table1 T2
+WHERE condition;
+echo "# ty" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rico43/ty.git
+git push -u origin main
+if SELECT column_name AS alias_name
+FROM table_name;
+SELECT column_name(s)
+FROM table1 T1, table1 T2
+WHERE condition;
+CREATE DATABASE databasename;
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
